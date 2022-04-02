@@ -1,0 +1,30 @@
+def armstrong_check(n):     #create a function for armstrong check
+    i = n                    
+    p = 0                  
+    digits = []                 #create list to store the digits stripped during operation
+    while i != 0:                #loop to check that it is armstrong or not
+        p += 1  
+        c = i % 10
+        digits.append(c)
+        i = int(i / 10)
+                                                    
+    number = 0                 
+    for num in digits:                 #loop to check by multiplying the digits with itself and adding in number
+        number += num**p
+                            
+    if n == number:                              #comparing the output
+        print("\n", n)
+        armno.append(n)       #function ends
+
+
+print("An n-digit number that is the sum of the nth powers of its digits is called an n-narcissistic number.\n"
+      " It is also sometimes known as an Armstrong number")
+print("enter the range for the armstrong numbers")
+initial = int(input("initial"))                              #storing the range from user input
+final = int(input("final"))
+global armno                                         #creating a global list
+armno = []
+for test in range(initial, final):                   #iterating the range in the function
+    armstrong_check(test)
+print(armno)                                  #printing the list
+ 
