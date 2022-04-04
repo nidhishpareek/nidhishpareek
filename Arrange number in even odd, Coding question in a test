@@ -1,0 +1,27 @@
+			# """ You are playing an online game. In the game, a list of N numbers is given.
+			# The player has to arrange the numbers so that all the odd numbers of the list come after the even numbers.
+			# Write an algorithm to arrange the given list such that all the odd numbers of the list come after the even numbers.
+			#
+			# Input
+			#
+			# The first line of the input consists of an integer numbers, representing the size of the list(N).
+			# The second line of the input consists of N space-separated integers representing the values of the list
+			# Output
+			#
+			# Print N space-separated integers such that all the odd numbers of the list come after the even numbers"""
+			
+n = int(input('enter size of list'))
+lis = (input("enter the space seperated numbers- ")).split()
+lis = ([int(x) for x in lis])
+lis.sort()
+#print(lis)
+odd = []
+even = []
+for i in lis:
+    even.append(i) if i%2 ==0 else odd.append(i)
+newlis = even + odd
+newlis = (str(x) for x in newlis)
+out = ""
+for x in newlis:
+    out += x + " " 
+print(out)
