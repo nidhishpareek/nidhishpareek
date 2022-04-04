@@ -1,0 +1,17 @@
+n = int(input("enter integer: "))
+p = 0
+i = n
+number = 0
+while i!=0:
+    p += 1
+    i = i//10
+i = n
+while i != 0:
+    rem = i% 10
+    number += rem ** p
+    i = i//10
+if number != n:
+    print(n, 'is not armstrong')
+else:
+    print(n, 'is armstrong')
+    
