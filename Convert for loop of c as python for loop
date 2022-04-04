@@ -1,0 +1,36 @@
+n = 'for (a=1;a>10;a--)'
+i = n
+i = i.replace('for ', '')
+i = i.strip('( )')
+splitted = i.split(';')
+initial = splitted[0].split('=')
+init = int(initial[1])
+
+if "<" in splitted[1]:
+    finellist = splitted[1].split('<')
+    if '=' in finellist[1]:
+        finalcond = finellist[1].replace('=', '')
+        finalcond = int(finalcond) + 1
+    else:
+        finalcond = int(finellist[1])
+if ">" in splitted[1]:
+    finellist = splitted[1].split('>')
+    if '=' in finellist[1]:
+        finalcond = finellist[1].replace('=', '')
+        finalcond = int(finalcond) + 1
+    else:
+        finalcond = int(finellist[1])
+if "+" in splitted[2]:
+    if "++" in splitted[2]:
+        steps = 1
+    else:
+        step = splitted[2].split('+')
+        steps = int(step[1])
+if "-" in splitted[2]:
+    if "--" in splitted[2]:
+        steps = -1
+    else:
+        step = splitted[2].split('-')
+        steps = int(step[1]) * (-1)
+print('the loop "', n, '" in c will be written as-')
+print('for', initial[0], 'in range(', init, ',', finalcond, ',', steps, ')')
