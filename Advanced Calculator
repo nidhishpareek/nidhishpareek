@@ -1,0 +1,139 @@
+def armstrong(n):
+    p = 0
+    i = n
+    number = 0
+    while i != 0:
+        p += 1
+        i = i // 10
+    i = n
+    while i != 0:
+        rem = i % 10
+        number += rem ** p
+        i = i // 10
+    if number != n:
+        print(n, 'is not armstrong')
+        return False
+    else:
+        print(n, 'is armstrong')
+        return True
+
+def fibonacci(maxNo):
+    maxNo = int(maxNo)
+    n1 = 0
+    n2 = 1
+    # maxNo = int(input("enter no of fibonacci series elements"))
+    # print("   ", n1)
+    # print("   ", n2)
+    all_no = [n1, n2]
+    for i in range(2, maxNo):
+        n3 = n1 + n2
+        if n3 > maxNo:
+            break
+        all_no.append(n3)
+        # print("   ", n3)
+        n1 = n2
+        n2 = n3
+    print('fibonacci list upto', maxNo ,'is - ', all_no)
+    return all_no
+
+def factorial(n):
+    n = int(n)
+    # n = int(input("enter no for factorial"))
+    fact = 1
+
+    for i in range(1, n+1):
+        fact = fact * i
+    #print(fact)
+    return fact
+
+def permutation(n):
+    # n = int(input("total no of objects"))
+    r = int(input('number of objects selected'))
+    numerator = factorial(n)
+    denominator = factorial((n-r))
+    per = numerator / denominator
+    print("the permutation is ", per)
+    return per
+
+def combination(n):
+    # n = int(input("total no of objects"))
+    r = int(input('number of objects selected'))
+    numerator = factorial(n)
+    denominator = factorial(r) * factorial((n - r))
+    comb = numerator / denominator
+    print("the combination is ", comb)
+    return comb
+
+def palindrome(x):
+    x = int(x)
+    x = str(x)
+    y = x[::-1]
+    if x == y:
+        print(x ,'is palindrome')
+    else:
+        print(x, ' is not palindrome')
+    x = float(x)
+    return x
+
+def prime(j):
+    flag = 0
+    m = int(j/2)
+    for i in range(2, m):
+        if j % i == 0:
+            flag = 1
+            break
+    if flag == 0:
+        print(j, 'is prime')
+    else:
+        print(j, "is not prime")
+if True:
+    print("CALCULATOR v.7")
+    print('************Operation Guide**************\n '
+          'addition = +\n subtraction = -\n multiplication = * \n division = /\n'
+          ' square = **\n reminder = rem\n armstrong check = arm \n permutation = p \n'
+          ' combination = c \n factorial = fact \n prime check = pr\n fibonacci series = feb\n'
+          ' palindrome = pal\n TO EXIT = clr\n*****small letter only*****\n \n \n')
+    a = float(input("enter no.          "))
+    operation = input('operation       ')
+
+while operation != 'clr':
+    global ans
+    if operation == "**":
+        ans = a * a; print(ans); a = ans ; operation = input('operation       ') ; continue
+    elif operation == '+':
+        b = float(input("enter no.          "))
+        ans = a + b ; print(ans) ; a = ans ; operation = input('operation       ') ; continue
+    elif operation == "-":
+        b = float(input("enter no.          "))
+        ans = a - b ; print(ans); a = ans ; operation = input('operation       ') ;continue
+    elif operation == "*":
+        b = float(input("enter no.          "))
+        ans = a * b ; print(ans); a = ans ; operation = input('operation       ')  ;continue
+    elif operation == "/":
+        b = float(input("enter no.          "))
+        ans = a / b ; print(ans); a = ans ; operation = input('operation       ') ; continue
+    elif operation == "rem":
+        b = float(input("enter no.          "))
+        ans = a % b ; print(ans); a = ans ; operation = input('operation       ') ; continue
+    elif operation == "pr":
+        prime(a)
+    elif operation == "feb":
+        fibonacci(a)
+    elif operation == "fact":
+        print('the factorial is', factorial(a))
+    elif operation == "arm":
+        armstrong(a)
+    elif operation == "p":
+        permutation(a)
+    elif operation == "c":
+        combination(a)
+    elif operation == "pal":
+        palindrome(a)
+    elif operation == "detail":
+        armstrong(a)
+        palindrome(a)
+        prime(a)
+        fibonacci(a)
+    else:
+        print("wrong operation")
+    exit(0)
