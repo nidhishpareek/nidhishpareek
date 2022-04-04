@@ -1,0 +1,66 @@
+import os
+import time
+
+
+def clock():
+    hr = sec = mi = 0
+    while True:
+        print(hr, mi, sec)
+        sec += 1
+        if sec == 60:
+            mi += 1
+            sec = 0
+        if mi == 60:
+            hr += 1
+            mi = 0
+        time.sleep(1)
+        os.system('cls')
+
+
+def stopwatch():
+    hr = mi = sec = 0
+    print('time as hr, mi, sec')
+    hr_max = int(input())
+    mi_max = int(input())
+    sec_max = int(input())
+
+    while hr < hr_max or mi < mi_max or sec < sec_max:
+        sec += 1
+        if sec == 60:
+            mi += 1
+            sec = 0
+        if mi == 60:
+            hr += 1
+            mi = 0
+        time.sleep(1)
+        print(hr, mi, sec)
+    time.sleep(.3)
+    print("time's up")
+
+
+def timer():
+    print('Enter time as hr, mi, sec')
+    hr = int(input())
+    mi = int(input())
+    sec = int(input())
+    while mi >= 0:
+        sec -= 1
+        if hr == 0 and mi == 0 and sec == 0:
+            time.sleep(1)
+            print("time's up")
+            break
+
+        if hr == 0 and mi != 0:
+            if sec < 0:
+                mi -= 1
+                sec = 59
+        if hr != 0:
+            if sec < 0:
+                mi -= 1
+                sec = 59
+            if mi < 0:
+                hr -= 1
+                mi = 59
+        time.sleep(1)
+        print(hr, mi, sec)
+# we can call any function just by function_name() command
