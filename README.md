@@ -6,8 +6,14 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nidhishpareek" alt="nidhishpareek" /></a> </p>
 
 - 🌱 I’m currently learning **Express, MongoDB, AWS**
-
-- 💬 Ask me about **Reactjs, Nodejs, HTML 5, CSS 3, JS, Java, Stock Market, Chess**
+- As a Fullstack Web Developer, I aim to build the Front-end and Back-end of Websites and Web Applications that leads to a robust product. Check out some of my work in the Projects section.
+-
+My curiosity helps me give my best on every project I take, it helps me in keeping up with new technologies, learning new skills, and always coming up with a new and generous approach to a problem.
+- 💬 Interests **Coding, Stock Market, Chess, Movies, Reading Books** 
+- I believe that you will become is what you think. I believe in quote **The only limits on your life are those that you set yourself.** from "The monk who sold his ferrary" and **“Those who do not remember the past are condemned to repeat it.”** from The Intelligent Investor by Benjamin Graham.
+- 
+- **React | Redux | Chakra-UI | Material-UI | Node.js | Express | MongoDB | Mongoose | HTML | CSS | JavaScript | CLI Bash | Firebase | Fusion360 | AutoCAD | SolidWorks | ANSYS | EmailJS**
+- 
  - Visit my website <a href="https://nidhishpareek.netlify.app/" target="blank"><img align="center" src="https://github.com/nidhishpareek/nidhish_pareek_portfolio/blob/master/src/images/NidhishLightLogo.png" alt="https://nidhishpareek.netlify.app/" height="30" /></a>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
