@@ -5,10 +5,10 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nidhishpareek" alt="nidhishpareek" /></a> </p>
 
-- 🌱 I’m currently learning **Express, MongoDB**
+- 🌱 I’m currently learning **Express, MongoDB, AWS**
 
-- 💬 Ask me about **reactjs,**
-
+- 💬 Ask me about **Reactjs, Nodejs, HTML 5, CSS 3, JS, Java, Stock Market, Chess**
+ - Visit my website <a href="https://nidhishpareek.netlify.app/" target="blank"><img align="center" src="https://github.com/nidhishpareek/nidhish_pareek_portfolio/blob/master/src/images/NidhishLightLogo.png" alt="https://nidhishpareek.netlify.app/" height="30" /></a>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/nidhishpareek" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="nidhishpareek" height="30" width="40" /></a>
