@@ -12,7 +12,7 @@
 
 - **React | Redux | Chakra-UI | Material-UI | Node.js | Express | MongoDB | Mongoose | HTML | CSS | JavaScript | CLI Bash | Firebase | Fusion360 | AutoCAD | SolidWorks | ANSYS | EmailJS**
 
- - Visit my website <a href="https://nidhish-pareek-portfolio.netlify.app/" target="blank"><img align="center" src="https://github.com/nidhishpareek/nidhish_pareek_portfolio/blob/master/src/images/NidhishLightLogo.png" alt="https://nidhishpareek.netlify.app/" height="30" /></a>
+ - Visit my website <a href="https://nidhish-pareek-portfolio.netlify.app/" target="blank"><img align="center" src="https://github.com/nidhishpareek/nidhish_pareek_portfolio/blob/master/src/images/NidhishLightLogo.png" target="_blank" alt="https://nidhishpareek.netlify.app/" height="30" /></a>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/nidhishpareek" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="nidhishpareek" height="30" width="40" /></a>
