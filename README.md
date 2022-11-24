@@ -6,8 +6,7 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nidhishpareek" alt="nidhishpareek" /></a> </p>
 
 - 🌱 I’m currently learning **Express, MongoDB, AWS**
-- As a Fullstack Web Developer, I aim to build the Front-end and Back-end of Websites and Web Applications that leads to a robust product. Check out some of my work in the Projects section.
-
+- 
 - My curiosity helps me give my best on every project I take, it helps me in keeping up with new technologies, learning new skills, and always coming up with a new and generous approach to a problem.
 - 💬 Interests **Coding, Stock Market, Chess, Movies, Reading Books** 
 - I believe that you will become is what you think. I believe in quote **The only limits on your life are those that you set yourself.** from "The monk who sold his ferrary" and **“Those who do not remember the past are condemned to repeat it.”** from The Intelligent Investor by Benjamin Graham.
