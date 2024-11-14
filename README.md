@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Nidhish Pareek</h1>
 <h3 align="center">I am a MERN stack developer.</h3>
-<h3 align="center">Office Profile: https://github.com/nidhishcimet/</h3>
+<h3 align="center">Work Account: https://github.com/nidhishcimet/</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nidhishpareek&label=Profile%20views&color=0e75b6&style=flat" alt="nidhishpareek" /> </p>
 
